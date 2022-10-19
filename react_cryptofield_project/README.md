@@ -1,6 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -39,32 +36,14 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This web app includes 100 coins by the way this coins update instantly. You know everything about coins statistics, knowledge, news and much more than...
+### Home Page
+Home page contain video hero section, global stats, 4 coins which have much rank toher coins and latest news.
+![1-)coin_site_1](https://user-images.githubusercontent.com/45832074/196825052-51cbc33c-3676-45ce-ba6d-6c360e3c6013.jpg)
+![2-)coin_site_2](https://user-images.githubusercontent.com/45832074/196825824-3685ae73-0315-43ff-bfdd-55e5cfe9367e.jpg)
+You can see all of the coins in cryptocurrencies
+![3-)coin_site_3](https://user-images.githubusercontent.com/45832074/196825852-36d1849a-69d0-4cf8-a545-7d900bc08098.jpg)
+This section you can see latest news about crypto coins
+![4-)coin_site_4](https://user-images.githubusercontent.com/45832074/196825982-fa603c03-7e94-4836-92b6-d4fcd95b0bc4.jpg)
+This section you can see more information coin which you want.
+![5-)coin_site_5](https://user-images.githubusercontent.com/45832074/196826047-f217f7ca-41b7-44d8-9571-9f3f5a383322.jpg)
