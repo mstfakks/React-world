@@ -1,0 +1,26 @@
+
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer-container{
+    background: #2bbc7d ;
+}
+
+.page-tit{
+    text-align: center;
+}
+.right-tit{
+    text-align: center;
+    padding: 2px;
+}
+.footer-container > p {
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}

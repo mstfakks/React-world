@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-6{width: 50%;}
+.col-8{width: 66.66%;}
+.col-12{width: 100%;}
+
+.news-width{
+    width: 33.33%;
+    float: left;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.box-height{
+    max-height: 237px;
+    min-height: 237px;
+    float: left;
+}
+.new-card-contain{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    float: left;
+}
+.page{
+    background-color: #ffe97d;
+}
+.new-card-content{
+    padding: 7px;
+    cursor: pointer;
+    background: #d7ccc8;
+    box-shadow: 0px 10px 10px #2bbc7d;
+    transition: all 0.4s ease;
+}
+
+.new-card-content:hover{
+    box-shadow: 0px 20px 25px #2bbc7d;
+    scale: 1;
+}
+
+.new-card-icon{
+    max-width: 200px;
+    max-height: 100px;
+    float: right;
+}
+
+.new-link{
+    color: black;
+}
+.new-card-title{
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+.new-card-middle-text{
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 19px;
+}
+.new-card-found{
+    margin-top: 15px;
+}
+.new-card-foundation-text{
+    margin-top: 15px;
+    margin-left: 2px;
+    float: left;
+    vertical-align: middle;
+}
+.new-found-icon{
+    width: 30px;
+    border-radius: 50%;
+    float: left;
+}
+
+.new-card-date{
+    text-align: right;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1418px){
+    .new-card-title{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1196px){
+    .news-width{
+        width: 50%;
+    }
+    .new-card-title{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .news-width{
+        width: 100%;
+    }
+    .new-card-title{
+        font-size: 18px;
+    }
+
+}
+
+
+
+

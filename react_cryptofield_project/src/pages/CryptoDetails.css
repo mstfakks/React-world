@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+
+.info-back{
+    background-color: #f8e898;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.crypto-detail-container{
+    min-height: 200px;
+    margin: 0px 5px;
+    padding: 10px;
+}
+
+.crypto-detail-heading-container{
+    width: 100%;
+}
+
+.crypto-detail-title{
+    text-align: center;
+    padding: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #1565c0;
+}
+
+.subtitle-container{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.subtitle{
+    padding: 7px;
+    text-align: center;
+    font-size: 23px;
+    color: #4e779b;
+}
+
+.value-statistic-container{
+    margin-top: 50px;
+    width: 50%;
+    float: left;
+}
+
+.value-statistic-title{
+    text-align: left;
+    padding: 7px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #1565c0;
+}
+
+.value-statistic-mid-text{
+    font-size: 19px;
+    text-align: left;
+    padding: 7px;
+    color: #4e779b;
+}
+
+.table-container{
+    min-height: 100px;
+    margin: 10px 5px ;
+    padding: 10px;
+}
+
+.value-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.value-table td {
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    padding: 15px;
+    font-size: 20px;
+}
+
+.value-table tr:hover{
+    background-color: #ddd;
+}
+
+.equal-right{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.what-area-container{
+
+    margin-top: 50px;
+    width: 50%;
+    min-height: 100px;
+    float: left;
+}
+
+.what-area-title-container{
+    padding: 7px;
+}
+
+.what-area-title{
+    font-size: 35px;
+    color: #1565c0;
+}
+
+.description-container{
+    padding: 7px;
+    font-size: 23px;
+    color: #616161;
+}
+
+.links-container{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.links-title-container{
+    padding: 8px;
+}
+
+.links-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #1565c0
+}
+
+.links-table-container{
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.links-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.td-links-right, .td-links-left{
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    padding: 21.5px;
+    font-size: 23px;
+}
+
+.td-links-right{
+    text-align: right;
+}
+
+.td-links-left{
+    color: #4e779b;
+}
+
+.coin-links{
+    text-decoration: none;
+    color: #242424;
+    
+}
+
+.coin-links:hover{
+    color: #4e779b;
+    cursor: pointer;
+}
+
+.links-table tr:hover{
+    background-color: #ddd;
+}
+
+@media screen and (max-width: 930px){
+    .value-statistic-title, .what-area-title, .links-title{
+        font-size: 30px;
+    }
+    .value-statistic-mid-text{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 810px){
+    .value-table td{
+        font-size: 16px;
+    }
+    .description-container{
+        font-size: 19px;
+    }
+    .td-links-left, .td-links-right{
+        font-size: 21px;
+    }
+    
+}
+
+@media screen and (max-width: 760px) {
+    .what-area-container{
+        width: 100%;
+    }
+    .links-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 695px){
+    .value-statistic-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 395px){
+    .crypto-detail-title{
+        font-size: 35px;
+    }
+    .subtitle, .td-links-right, .td-links-left{
+        font-size: 12px;
+    }
+    .td-links-left,.td-links-right{
+        text-align: center;
+    }
+    .value-statistic-title, .what-area-title,.links-title{
+        font-size: 25px;
+    }
+    .value-table td{
+        font-size: 14px;
+    }
+    .description-container{
+        font-size: 16px;
+    }
+    .equal-right{
+        font-size: 9px;
+    }
+    
+}
+
+
