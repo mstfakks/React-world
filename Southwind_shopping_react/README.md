@@ -39,32 +39,31 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Information Of This Application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This Shopping website includes class components, functional components and hooks.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Also redux and redux-thunk technologies were preferred in project by the way App.js file in ./src/components/root.
 
-### Code Splitting
+### Home Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Categories and product was listed in this page. You can add new product in products api, you can go your cart.
 
-### Analyzing the Bundle Size
+![1-)Ürün eklemeden ana sayfa](https://user-images.githubusercontent.com/45832074/197338295-821020ab-9df2-4e73-b768-974a25753adc.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+You can filter products according to categories.
 
-### Making a Progressive Web App
+![2-)Kategorileri filtreleme](https://user-images.githubusercontent.com/45832074/197338328-d195c53c-570d-444c-a8b0-318e99f5bf97.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+You can add product in your cart
 
-### Advanced Configuration
+![3-)Spete Ürün Ekleme](https://user-images.githubusercontent.com/45832074/197338334-7d9cc398-a914-4363-9568-a15fd3ffbf27.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+You can display your cart in your cart page.
 
-### Deployment
+![4-)Sepet](https://user-images.githubusercontent.com/45832074/197338356-9677f9cb-bd28-4ffd-b4ee-90a58a99737e.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can add new product in products api
 
-### `npm run build` fails to minify
+![5-)Api İçerisine Yeni Ürün Kaydetme](https://user-images.githubusercontent.com/45832074/197338373-ab0f5d30-b121-49d6-bceb-a0302b6e7cd9.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
